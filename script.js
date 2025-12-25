@@ -1,5 +1,5 @@
 // Telegram Mini App - Social Boost
-// Bot: @booottttttttttt_bot
+// Bot: @DawudBoost_Bot
 // Service URL: https://fk-edits.github.io/-/
 
 class SocialBoostApp {
@@ -30,7 +30,7 @@ class SocialBoostApp {
     }
     
     setBotInfo() {
-        const botName = '@booottttttttttt_bot';
+        const botName = '@DawudBoost_Bot';
         document.querySelector('.footer p').textContent = botName;
         document.title = `Social Boost | ${botName}`;
     }
@@ -297,4 +297,5 @@ document.addEventListener('DOMContentLoaded', () => {
 window.onerror = function(msg, url, lineNo, columnNo, error) {
     console.log('Error:', msg, 'Script:', url, 'Line:', lineNo);
     return false;
+
 };
