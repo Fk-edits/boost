@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Boost</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div class="grid-background"></div>
+    
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo-animation">
+                <div class="logo-circle">
+                    <i class="fas fa-rocket"></i>
+                </div>
+            </div>
+            <h1 class="title">Social Boost</h1>
+            <p class="subtitle">
+                <i class="fas fa-bolt"></i> Premium Social Media Services
+            </p>
+        </div>
+        
+        <!-- Welcome Section -->
+        <div class="welcome-section">
+            <p class="welcome-text">
+                <i class="fas fa-hand-wave"></i> Hi there! This is Social Boost. 
+                If you want boost services, click the button below! 
+                <i class="fas fa-arrow-down"></i>
+            </p>
+        </div>
+        
+        <!-- Services Section -->
+        <div class="services-section">
+            <h2><i class="fas fa-concierge-bell"></i> Our Services</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Followers</h3>
+                    <p>Increase your followers instantly</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Likes</h3>
+                    <p>Boost your engagement rate</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Comments</h3>
+                    <p>Genuine interactions</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Views</h3>
+                    <p>Increase visibility</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Button Section -->
+        <div class="button-section">
+            <button id="boostBtn" class="boost-btn">
+                <span class="btn-text">
+                    <i class="fas fa-bolt"></i> BOOST NOW
+                </span>
+            </button>
+            <button id="openBtn" class="open-btn">
+                <span class="btn-text">
+                    <i class="fas fa-external-link-alt"></i> OPEN SERVICE
+                </span>
+            </button>
+        </div>
+        
+        <!-- Stats Section -->
+        <div class="stats">
+            <div class="stat-item">
+                <i class="fas fa-user-check stat-icon"></i>
+                <span class="stat-number">10K+</span>
+                <span class="stat-label">Happy Clients</span>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-headset stat-icon"></i>
+                <span class="stat-number">24/7</span>
+                <span class="stat-label">Support</span>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-shield-alt stat-icon"></i>
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Safe & Secure</span>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <p>
+                <i class="fab fa-telegram"></i> @booottttttttttt_bot
+            </p>
+            <p class="copyright">
+                © 2024 Social Boost. All rights reserved.
+            </p>
+        </div>
+    </div>
+    
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="loading-content">
+            <div class="loader">
+                <div class="loader-circle"></div>
+                <div class="loader-circle"></div>
+                <div class="loader-circle"></div>
+                <i class="fas fa-spinner"></i>
+            </div>
+            <p>
+                <i class="fas fa-sync-alt"></i> Opening Boost Service...
+            </p>
+            <p class="loading-subtext">Please wait a moment</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
